@@ -1,0 +1,400 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width:568px) {
+
+			.top-ads, .top-ads2{
+			display:none !important;
+			}
+			
+	}
+
+@media screen and (max-width:749px) {
+
+.faceb {
+	margin-left: 0 !important;
+	}
+	
+	.btn-social-icon {
+	margin-left: auto;
+	margin-right:auto;
+	}
+
+}
+
+@media (max-width: 768px) {
+	
+	.navbar-nav  {
+	text-align: center !important;
+	}
+	
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #003f5f !important;
+	}
+	
+	}
+	
+	@media (min-width: 768px) {
+	
+	.navbar-nav {
+	margin: 20px 0 !important;
+	}
+	
+	.navbar-header {
+	margin-top: 5px;
+	}
+	
+	h1{
+	font-size: 55px;
+	}
+	
+	}
+
+
+@media (max-width:1024px) {
+	
+	.adsense_leader{
+		margin:0 !important;
+	}
+	
+	.option-set{
+	padding:0 !important;
+	}
+	
+	form{
+	width:120px;
+	}
+	
+	}
+	
+@media (min-width: 1024px) {
+
+	#container{
+		margin-left: 20px !important;
+	}
+	
+}		
+
+@media (min-width: 1024px) and (max-width:1199px) {
+	
+	.top-ads{
+		width:61% !important;
+		margin-left: 52% !important;
+	}
+	
+	}
+	
+	@media (min-width: 1200px) {
+	
+	.top-ads{
+		width:61% !important;
+		margin-left: 42% !important;
+	}
+	
+	}
+
+/*END QUERIES*/
+
+body{
+	background-color: #0b0e0d;
+}
+
+#titleimage{
+	margin-top: 120px;
+	width:100%;
+	text-align: center;
+	color: #fff;
+}	
+
+#container img, #container iframe{
+	opacity: 0.2;
+	position: absolute;
+	right: 0;
+	top: 0;
+}	
+
+.item {
+  width:  60px;
+  height: 60px;
+  float: left;
+  border: 1px solid;
+  background: #09F;
+}
+
+.item.w2 { width: 120px; }
+.item.w3 { width: 180px; }
+
+.item.h2 { height: 100px; }
+.item.h3 { height: 160px; }
+.item.h4 { height: 220px; }
+.item.h5 { height: 280px; }
+
+.stamp {
+  background: red;
+  opacity: 0.75;
+  position: absolute;
+  border: 1px solid;
+}
+
+
+/* element */
+
+button{
+	border: none;
+	padding: 0px 28px;
+	float: left;
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #ddd;
+}
+
+button:hover {
+	background-color: #2e2e2e;
+	color: #fff;
+}	
+
+.active {
+	background-color: #2e2e2e;
+	color: #fff;
+}	
+
+#aj:hover {
+	color: #658f9d;
+}
+
+#kq:hover {
+	color: #215c77;
+}
+
+#rz:hover {
+	color: #095171;
+}			
+		
+
+form {
+	display: inline-block;
+	height: 48px;
+}	
+
+.authors {
+	background-color: #2e2e2e;
+	color: #fefefe;
+	height: 48px;
+	line-height: 48px;
+	letter-spacing: 2px;
+	border: none;
+}	
+
+.option-set{
+	background-color: #ddd;
+	padding: 0 0 0 25px;
+	position: relative;
+}	
+
+.element {
+  width: 234px;
+  height: 234px;
+  margin: 5px;
+  background: #DDD;
+  float: left;
+  position: relative;
+  padding: 5px;
+}
+
+.element > * {
+  margin: 0;
+}
+
+.element .number {
+  right: 5px;
+  top: 5px;
+  position: absolute;
+	opacity: 0;
+}
+
+.element .symbol {
+  font-size: 30px;
+  left: 5px;
+  margin-top: 80px;
+  color: white;
+	line-height: 1.3em;
+}
+
+.element .name {
+  font-size: 16px;
+	opacity:0;
+}
+
+.element .weight {
+  font-size: 14px;
+	opacity:0;
+}
+
+.element.aj      	 { background: #676767;  }
+.element.kq        { background: #969696; }
+.element.rz       		 { background: #1e1e1e; }
+
+/* stamps */
+
+.stamp {
+  position: absolute;
+  background: hsla(0, 100%, 50%, 0.8);
+  border: 1px solid;
+}
+
+.stamp1 {
+  left: 10%;
+  top: 20px;
+  width: 20%;
+  height: 200px;
+}
+
+.stamp2 {
+  right: 200px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/* FONTS */
+
+
+h1{
+font-family: 'League Spartan', serif;
+color: #368789;
+text-transform: uppercase;
+letter-spacing: 15px;
+}
+
+h3, button{
+	font-family: 'League Spartan', sans-serif;
+}	
+
+.titleh1, .titleh2 {
+	color: #368789;
+	font-size:36px;
+	font-family: 'League Spartan', 'Lato', sans-serif;
+}	
+
+p {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.18em;
+}	
+
+.authors {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}	
+
+
+	
+/*NAV*/
+	
+	.theme-dropdown .dropdown-menu {
+  			position: static;
+  			display: block;
+ 	 			margin-bottom: 20px;
+			}
+			
+			.theme-showcase > p > .btn {
+        margin: 5px 0;
+      }
+			
+			.navbar-brand {
+			padding-right:0 !important;
+			margin-top: 4px;
+			}
+      
+      .theme-showcase .navbar .container {
+        width: auto;
+      }
+			
+			.navbar-fixed-top {
+			background-color: rgba(255,255,255,0.9) !important;
+			box-shadow: 0px 1px 6px rgba(0,0,0,0.4);
+
+			}
+			
+			.navbar-inverse {
+			background-image: none !important;
+			}
+			
+			.navbar-inverse .navbar-toggle{
+			background-color: #333 !important;
+			}
+			
+			.navbar-nav li a{
+			font-family: 'League Spartan', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform:uppercase;
+			letter-spacing: 1px;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a {
+			color: #0072ac;
+			text-shadow: none;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a:hover {
+			color: #003f5f;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a:visited, .navbar-inverse .navbar-nav>.active>a:visited, .navbar-inverse .navbar-nav>li>a:focus {
+			color: #0072ac !important;
+			}
+	
+	/*Isotope transition reqs*/
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -ms-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+.isotope {
+      -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+      transition-property: height, width;
+}
+
+.isotope .isotope-item {
+      -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:-moz-transform, opacity;
+      -ms-transition-property: -ms-transform, opacity;
+       -o-transition-property:  top,left, opacity;
+      transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+      -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+      transition-duration: 0s;
+}
+
+/*Filtering*/
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}	

@@ -1,0 +1,228 @@
+@media screen and (max-width:568px) {
+
+			.top-ads, .top-ads2{
+			display:none !important;
+			}
+			
+			.jumbotron{
+			background: url('part2Mob.jpg') !important;
+			}
+			
+	}
+	
+	@media (max-width: 749px) {
+	
+	.footer {
+	position: fixed !important;
+	height: 50px !important;
+	background-color: rgba(255,255,255,0.9) !important;
+	text-align: center !important;
+	left: 0;
+	z-index: 999;
+	}
+	
+	.faceb {
+	margin-left: 0 !important;
+	}
+	
+	.btn-social-icon {
+	margin-left: auto;
+	margin-right:auto;
+	}
+	
+	.jumbotron {
+	padding: 17% !important;
+	}
+	
+	}
+	
+	@media (max-width: 768px) {
+	
+	.navbar-nav  {
+	text-align: center !important;
+	}
+	
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #003f5f !important;
+	}
+	
+	}
+	
+	@media (min-width: 768px) {
+	
+	.navbar-nav {
+	margin: 20px 0 !important;
+	}
+	
+	.navbar-header {
+	margin-top: 5px;
+	}
+	
+	}
+	
+	@media (min-width: 1024px) and (max-width:1199px) {
+	
+	.top-ads{
+		width:61% !important;
+		margin-left: 52% !important;
+	}
+	
+	}
+	
+	@media (min-width: 1200px) {
+	
+	.top-ads{
+		width:61% !important;
+		margin-left: 42% !important;
+	}
+	
+	}
+	
+	@media (min-width:1281px) and (max-width: 1405px) {
+		
+		.jumbotron{
+			background: url('part21405.jpg') !important;
+			background-repeat: no-repeat !important;
+			background-attachment: fixed !important;
+		}
+		
+	}
+	
+	@media (min-width:1406px) {
+		
+		.jumbotron{
+			background: url('part21900.jpg') !important;
+			background-repeat: no-repeat !important;
+			background-attachment: fixed !important;
+			padding: 23% !important;
+		}
+		
+	}
+
+<!--
+			
+			html{
+				position:relative;
+				min-height: 100%;
+			}	
+			
+      body {
+        padding-top: 70px;
+  			padding-bottom: 30px;
+      }
+			
+			.site-wrapper{
+			display: table;
+			width: 100%;
+			height: 100%;
+			min-height: 100%;
+			}
+			
+			.theme-dropdown .dropdown-menu {
+  			position: static;
+  			display: block;
+ 	 			margin-bottom: 20px;
+			}
+			
+			.theme-showcase > p > .btn {
+        margin: 5px 0;
+      }
+			
+			.navbar-brand {
+			padding-right:0 !important;
+			margin-top: 4px;
+			}
+      
+      .theme-showcase .navbar .container {
+        width: auto;
+      }
+			
+			.navbar-fixed-top {
+			background-color: rgba(255,255,255,0.9) !important;
+			box-shadow: 0px 1px 6px rgba(0,0,0,0.4);
+
+			}
+			
+			.navbar-inverse {
+			background-image: none !important;
+			}
+			
+			.navbar-inverse .navbar-toggle{
+			background-color: #333 !important;
+			}
+			
+			.navbar-nav li a{
+			font-family: 'League Spartan', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform:uppercase;
+			letter-spacing: 1px;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a {
+			color: #0072ac;
+			text-shadow: none;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a:hover {
+			color: #003f5f;
+			}
+			
+			.navbar-inverse .navbar-nav>li>a:visited, .navbar-inverse .navbar-nav>.active>a:visited, .navbar-inverse .navbar-nav>li>a:focus {
+			color: #0072ac !important;
+			}
+			
+			.jumbotron{
+			background-image: url('boots1280.jpg');
+			border-radius: 0px !important;
+			padding: 23%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+			}
+		
+			.jumbotron h1, .cover-heading {
+			font-family: 'League Spartan', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 20px;
+			}
+			
+			.container.theme-showcase {
+			color: #000 !important;
+			}
+			
+			.lead, h1, h2, h3 {
+			font-family: 'League Spartan', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+			
+			h3 {
+			line-height: 1.8em;
+			}
+			
+			p {
+			font-family: Georgia;
+			font-size: 18px;
+			line-height: 1.8em;
+			color: rgba(0,0,0,0.8);
+			}
+			
+			.sidead1 {
+			width:300px;
+			clear:both;
+			margin-top: 20px;
+			margin-left: 30px;
+			}
+			
+			.captions {
+			font-family: 'League Spartan', 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 12px;
+			color: rgb (128,128,128);
+			}
+			
+			.footer {
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 90px;
+				text-align: center;
+      }
+			
+      -->
